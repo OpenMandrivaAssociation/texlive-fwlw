@@ -1,3 +1,9 @@
+# revision 21548
+# category Package
+# catalog-ctan /macros/latex/contrib/fwlw
+# catalog-date 2011-02-28 15:08:29 +0100
+# catalog-license other-free
+# catalog-version undef
 Name:		texlive-fwlw
 Version:	20110228
 Release:	1
@@ -42,6 +48,7 @@ extracted.
 %doc %{_texmfdistdir}/doc/latex/fwlw/README
 %doc %{_texmfdistdir}/doc/latex/fwlw/fwlw.pdf
 %doc %{_texmfdistdir}/doc/latex/fwlw/fwlw.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ extracted.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
