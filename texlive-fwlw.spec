@@ -1,12 +1,12 @@
-# revision 21548
+# revision 29803
 # category Package
 # catalog-ctan /macros/latex/contrib/fwlw
-# catalog-date 2011-02-28 15:08:29 +0100
+# catalog-date 2012-06-04 11:02:08 +0200
 # catalog-license other-free
 # catalog-version undef
 Name:		texlive-fwlw
-Version:	20110228
-Release:	2
+Version:	20120604
+Release:	1
 Summary:	Get first and last words of a page
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fwlw
@@ -49,17 +49,3 @@ extracted.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110228-2
-+ Revision: 752178
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110228-1
-+ Revision: 718516
-- texlive-fwlw
-- texlive-fwlw
-- texlive-fwlw
-- texlive-fwlw
-
