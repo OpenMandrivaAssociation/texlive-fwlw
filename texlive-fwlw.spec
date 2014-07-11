@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-fwlw
 Version:	20120604
-Release:	6
+Release:	7
 Summary:	Get first and last words of a page
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fwlw
