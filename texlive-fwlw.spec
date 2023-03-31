@@ -1,6 +1,6 @@
 Name:		texlive-fwlw
 Version:	29803
-Release:	1
+Release:	2
 Summary:	Get first and last words of a page
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fwlw
