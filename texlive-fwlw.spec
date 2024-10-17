@@ -3,7 +3,7 @@ Version:	29803
 Release:	2
 Summary:	Get first and last words of a page
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fwlw
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/fwlw
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fwlw.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fwlw.doc.r%{version}.tar.xz
